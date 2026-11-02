@@ -1,0 +1,22 @@
+# macOS and compiled files
+.DS_Store
+/build/
+/main
+*.dSYM/
+*.o
+
+# Generated previews and intermediate inspection files
+**/rendered*/
+**/.codex-finalizer/
+*.ndjson
+__pycache__/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Installed dependencies
+node_modules/
