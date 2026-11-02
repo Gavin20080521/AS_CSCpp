@@ -19,4 +19,4 @@ __pycache__/
 *.key
 
 # Installed dependencies
-node_modules/
+node_modules
